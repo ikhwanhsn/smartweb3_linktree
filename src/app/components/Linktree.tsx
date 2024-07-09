@@ -34,6 +34,10 @@ const Linktree = () => {
           href="https://smartweb3.notion.site/Airdrop-384b6ef5daba481980f00e8119483320?pvs=74"
         />
         <Button
+          title="Mastering DEX🤑"
+          href="https://sites.google.com/view/mastering-dex/halaman-muka"
+        />
+        <Button
           title="Skills Making Money💸"
           href="https://smartweb3.notion.site/Upgrade-Skills-92afebc7308345b98dd22e2e696bc7dd"
         />
