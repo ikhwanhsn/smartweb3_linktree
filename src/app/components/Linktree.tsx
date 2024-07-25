@@ -5,6 +5,8 @@ import { PiTiktokLogo } from "react-icons/pi";
 import { SlSocialInstagram } from "react-icons/sl";
 import { RiTwitterXLine } from "react-icons/ri";
 import { MdOutlineMail } from "react-icons/md";
+import bitcoin from "../../../public/video/crypto-bitcoin.gif";
+import bitcoinWorld from "../../../public/video/world-wide-bitcoin.gif";
 
 const Linktree = () => {
   return (
@@ -60,6 +62,14 @@ export default Linktree;
 const SocialMedia = () => {
   return (
     <center className="mt-3 flex items-center gap-1 justify-center">
+      <a
+        href="https://s.shopee.co.id/30TtdwTkDH"
+        target="_blank"
+        className="tooltip tooltip-bottom tooltip-accent"
+        data-tip="Crypto world"
+      >
+        <Image src={bitcoinWorld} alt="bitcoin-world" className="w-16" />
+      </a>
       <a href="https://t.me/SmartWeb3ID" target="_blank">
         <section className="border w-fit rounded-full p-2 cursor-pointer hover:bg-white hover:text-primary">
           <LiaTelegramPlane size={25} />
@@ -84,6 +94,14 @@ const SocialMedia = () => {
         <section className="border w-fit rounded-full p-2 cursor-pointer hover:bg-white hover:text-primary">
           <MdOutlineMail size={25} />
         </section>
+      </a>
+      <a
+        href="https://s.shopee.co.id/3q30dd9CCt"
+        target="_blank"
+        className="tooltip tooltip-bottom tooltip-secondary"
+        data-tip="Pump it!"
+      >
+        <Image src={bitcoin} alt="bitcoin" className="-mt-2 w-14" />
       </a>
     </center>
   );
